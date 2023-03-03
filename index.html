@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Social Media</title>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="home-btn">
+                <img src="icons/homeicon.png" alt="Home" height="27" width="27">
+                <p>Logo</p>
+            </div>
+            <div class="news-btn">
+                <img src="icons/worldicon.png" alt="News" width="25">
+            </div>
+            <div class="user-btn">
+                <img src="icons/usericon.png" alt="User" width="25">
+            </div>
+            <div class="messages-btn">
+                <img src="icons/messagesicon.png" alt="Messages" width="25">
+            </div>
+            <div class="drop-down">
+                <div class="notifications-btn">
+                    <img src="icons/notifications.png" alt="Notifications" width="25">
+                    <img id="number-icon" src="icons/number3icon.png" alt="Notification Number" height="20" width="25">
+                </div>
+                <div class="drop-down-content">
+                    <a href="">One new friend request</a>
+                    <a href="">John Doe posted on your wall</a>
+                    <a href="">Jane Doe liked your post</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-wrap">
+            <div class="left-container-wrap">
+                <div class="profile-container">
+                    <p id="profile-title">My profile</p>
+                    <img id="profile-pic" src="icons/pfp.png" alt="Your Profile Picture" width="120">
+                    <hr id="profile-hr">
+                    <div class="intro-row">
+                        <img class="intro-img" src="icons/pencilicon.png" alt="Your Profession" height="15" width="15">
+                        <p>Designer, UI</p>
+                    </div>
+                    <div class="intro-row">
+                        <img class="intro-img" src="icons/profile-homeicon.png" alt="Your Country, City" height="20" width="20">
+                        <p>London. UK</p>
+                    </div>
+                    <div class="intro-row">
+                        <img class="intro-img" src="icons/birthday-cakeicon.png" alt="Your Birthday" height="20" width="20">
+                        <p>April 1, 1988</p>
+                    </div>
+                </div>
+                <div class="user-nf-container">
+                    <div>
+                        <img src="icons/groupsicon.png" alt="Your Groups" height="23" width="20">
+                        <p>My Groups</p>
+                    </div>
+                    <div>
+                        <img src="icons/calendaricon.png" alt="Your Events" height="23" width="20">
+                        <p>My Events</p>
+                    </div>
+                    <div>
+                        <img src="Icons/photosicon.png" alt="Your Photos" height="25" width="23">
+                        <p>My Photos</p>
+                    </div>
+                </div>
+                <div class="interests-container">
+                    <p id="interests-title">Interests</p>
+                    <div>
+                        <p>Friends</p><p>Food</p><p>Design</p><p>Art</p><p>Photos</p>
+                    </div>
+                </div>
+                <div class="ntf-popup">
+                    <div>
+                        <p id="ntf-title">Hey!</p>
+                        <input id="ntf-img" type="image" src="icons/x-icon.png" height="12" width="12">
+                    </div>
+                    <p>People are looking at your profile. Find out who...</p>
+                </div>
+            </div>
+            <div class="center-container-wrap">
+                <div class="posting-container">
+                    <p>Social media template by Papuna</p>
+                    <input id="posting-input-bar" type="text">
+                    <br>
+                    <div class="post-btn-wrap">
+                        <input id="post-btn-icon" type="image" src="icons/white-pencilicon.png" width="20">
+                        <input id="post-btn" type="button" value="Post">
+                    </div>
+                </div>
+                <div class="posts">
+                    <div class="post">
+                        <div>
+                            <img class="user-pfp" src="icons/pfp2.png" alt="User Profile Picture" width="80">
+                            <p>John Doe</p>
+                            <p class="post-time-first">1 min</p>
+                        </div>
+                        <div class="post-content">
+                            <hr class="post-hr">
+                            <p class="post-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Delectus porro temporibus 
+                            neque nobis quae sit officiis doloribus culpa.
+                            Voluptatem, doloremque cum. Molestias repudiandae pariatur 
+                            veritatis minus, quis aliquid quasi nulla?
+                            </p>
+                            <div id="post-images">
+                                <img src="images/lights.jpg" alt="User Post" height="300" width="350">
+                                <img src="images/nature.jpg" alt="User Post" height="300" width="350">
+                            </div>
+                            <div class="reactions-wrap">
+                                <div class="like">
+                                    <input type="image" src="icons/likeicon.png" alt="Like" width="20">
+                                    <input type="button" value="Like">
+                                </div>
+                                <div class="comment">
+                                    <input type="image" src="icons/commenticon.png" alt="Comment" width="20">
+                                    <input type="button" value="Comment">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div>
+                            <img class="user-pfp" src="icons/pfp3.png" alt="User Profile Picture" width="80">
+                            <p>Jane Doe</p>
+                            <p class="post-time-second">16 min</p>
+                        </div>
+                        <div class="post-content">
+                                <hr class="post-hr">
+                                <p class="post-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Delectus porro temporibus 
+                                neque nobis quae sit officiis doloribus culpa.
+                                Voluptatem, doloremque cum. Molestias repudiandae pariatur 
+                                veritatis minus, quis aliquid quasi nulla?
+                            </p>
+                            <div class="reactions-wrap">
+                                <div class="like">
+                                    <input type="image" src="icons/likeicon.png" alt="Like" width="20">
+                                    <input type="button" value="Like">
+                                </div>
+                                <div class="comment">
+                                    <input type="image" src="icons/commenticon.png" alt="Comment" width="20">
+                                    <input type="button" value="Comment">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div>
+                            <img class="user-pfp" src="icons/pfp4.png" alt="User Profile Picture" width="78">
+                            <p>Angie Jane</p>
+                            <p class="post-time-third">32 min</p>
+                        </div>
+                        <div class="post-content">
+                            <hr class="post-hr">
+                            <p class="post-text">
+                                Have you seen this?
+                            </p>
+                            <img src="images/nature 2.jpg" alt="User Post" width="730">
+                            <p class="post-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Delectus porro temporibus 
+                                neque nobis quae sit officiis doloribus culpa.
+                                Voluptatem, doloremque cum. Molestias repudiandae pariatur 
+                                veritatis minus, quis aliquid quasi nulla?
+                            </p>
+                            <div class="reactions-wrap">
+                                <div class="like">
+                                    <input type="image" src="icons/likeicon.png" alt="Like" width="20">
+                                    <input type="button" value="Like">
+                                </div>
+                                <div class="comment">
+                                    <input type="image" src="icons/commenticon.png" alt="Comment" width="20">
+                                    <input type="button" value="Comment">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-container-wrap">
+                <div class="upcoming-events-container">
+                    <p id="upcm-title">Upcoming Events:</p>
+                    <img src="images/forest.jpg" alt="Forest Image" width="200">
+                    <p id="holiday">Holiday</p>
+                    <p id="event-time">Friday 15:00</p>
+                    <input id="event-btn" type="button" value="Info">
+                </div>
+                <div class="friend-request-container">
+                    <p id="request-text">Friend Request</p>
+                    <img id="request-pfp" src="icons/user-pfp.png" alt="User Profile Picture" width="110">
+                    <p id="request-name">Angelina Jolie</p>
+                    <div class="request-btns">
+                        <input id="request-acpt" type="image" src="icons/checkicon.png" width="27">
+                        <input id="request-dcln" type="image" src="icons/xicon.png" height="20" width="18">
+                    </div>
+                </div>
+                <div class="ads">
+                    <p>ADS</p>
+                </div>
+                <div class="bug">
+                    <img src="icons/bugicon.png" alt="Bug" width="35">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div id="footer-rowone">
+                <p>Footer</p>
+            </div>
+            <div id="footer-rowtwo">
+                <p>Powered by Papuna</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
